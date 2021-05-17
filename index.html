@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/00c3b8d13e.js" crossorigin="anonymous"></script>
+        <script src="code.js" defer></script>
+        <title>To-do List - Steven Sub</title>
+        <meta name="description" content="This To-do List is create with only HTML, CSS Javascript. It saves your task on your browser's localStorage">
+        <meta name="keywords" content="HTML, CSS, JavaScript, To-do, List, Steven, Sub">
+        <meta name="author" content="Steven Sub">
+    </head>
+    <body>
+        
+        <h1>To-do List</h1>
+        <div id="container" >
+             <span class="far fa-plus-square"></span>
+          
+            <ul id="taskList">
+                <li id="sample">
+                    <div class="header">
+                        <h2 class="title">Sample</h2> <span class="fas fa-angle-down more"></span>  <span class="fas fa-trash-alt delete"></span>
+                    </div>
+                    <div class="details">Description here 
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, est nam. 
+                            Quisquam, facere. Facilis deleniti ipsum magni quibusdam dolorem quasi 
+                            vitae delectus qui harum distinctio praesentium officia, cumque aliquid tenetur.
+                        <p>Created: Mon May 17 2021</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header"><h2>Create New Task</h2> <span class="far fa-window-close close"></span></div>
+        <div class="modal-body">
+            <div id="form">
+            <div>
+                <label for="task-title"> Title</label><br>
+                <input type="text" name="task-title" id="task-title">
+            </div>
+            <div>
+                <label for="task-decpt">Description</label><br>
+                <textarea name="description" id="task-desc" cols="30" rows="7"></textarea>
+            </div>
+            <button id ="createBtn">Create</button>
+        </div>
+        </div>
+    </div>
+  </div>
+    </body>
+</html>
