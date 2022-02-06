@@ -5,4 +5,4 @@
 
 ### Screenshot
 
-[](./todolist-screenshot.jpg)
+![](./todolist-screenshot.jpg)
